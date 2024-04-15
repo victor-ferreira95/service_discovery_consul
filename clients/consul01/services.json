@@ -1,0 +1,16 @@
+{
+    "encrypt":"4qi0x6r7rnCVG3dI9rRplCBuPiN1ETDfQkNQXbO7A/A=",
+    "service": {
+        "id":"nginx",
+        "name": "nginx",
+        "tags": ["web"],
+        "port": 80,
+        "check": {
+            "id": "nginx",
+            "name": "HTTP 80",
+            "http": "http://localhost",
+            "interval": "10s",
+            "timeout": "1s"
+          }
+    }
+}
